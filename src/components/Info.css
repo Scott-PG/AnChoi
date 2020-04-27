@@ -1,0 +1,130 @@
+.info-holder {
+  display: grid;
+  grid-template-rows: 30px 50px 30px auto 30px;
+  grid-template-columns: 120px 1fr 30px 2fr 120px;
+  grid-template-areas:
+    ". . . . ."
+    ". t t t ."
+    ". . . . ."
+    ". i . m ."
+    ". . . . .";
+}
+
+.info-title {
+  grid-area: t;
+}
+.info-text {
+  grid-area: i;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-map {
+  width: 100%;
+  grid-area: m;
+}
+
+.info-social-inline {
+  display: none;
+}
+
+.info-social-icon-div {
+  height: 30px;
+  width: 175px;
+  display: flex;
+  justify-content: space-between;
+}
+.social-icon {
+  height: 100%;
+}
+
+.info-title {
+  font-family: Bungee Shade;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  color: #2577c4;
+}
+
+.info-text-header {
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #2577c4;
+  margin-bottom: 8px;
+  margin-top: 14px;
+}
+
+.info-kitchen-hours {
+  display: flex;
+  justify-content: space-between;
+  width: 375px;
+  margin-bottom: 10px;
+}
+
+.info-bar-hours {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.info-text-p {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+@media (max-width: 1350px) {
+  .info-holder {
+    grid-template-rows: 30px auto 30px auto 30px auto 30px;
+    grid-template-columns: 120px 1fr 120px;
+    grid-template-areas:
+      ". . ."
+      "t t t"
+      ". . ."
+      ". i ."
+      ". . ."
+      ". m ."
+      ". . ."
+      ". s ."
+      ". . .";
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-social-sidebar {
+    display: none;
+  }
+  .info-social-inline {
+    display: block;
+    grid-area: s;
+    justify-self: center;
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+
+  .info-kitchen-hours {
+    justify-self: center;
+    margin: 0 auto 10px;
+  }
+
+  .info-bar-hours {
+    justify-self: center;
+    margin: 0 auto 10px;
+  }
+
+  .info-social-icon-div {
+    justify-self: center;
+    margin: 0 auto 10px;
+  }
+}
