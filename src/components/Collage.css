@@ -3,10 +3,12 @@ h4,
 p {
   margin: 0;
 }
+
 .collage {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   background-image: url(../images/collage.png);
@@ -41,10 +43,10 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .collage-button-border-two {
-  /* display: flex; */
   width: 437px;
   height: 185.3px;
   background-color: #c31230;
@@ -65,25 +67,13 @@ p {
   letter-spacing: normal;
   color: #ffffff;
   text-decoration: underline;
+  margin-top: 10px;
 }
-.kitchen-container {
-  margin-left: 30px;
-}
+/* .kitchen-container {
+
+} */
 .kitchen {
-  font-family: "Bungee";
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  margin-bottom: 5px;
-}
-.bar-container {
   margin-left: 30px;
-}
-.bar {
   font-family: "Bungee";
   font-size: 18px;
   font-weight: normal;
@@ -95,10 +85,24 @@ p {
   margin-bottom: 5px;
 }
 
+.bar {
+  font-family: "Bungee";
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+
 .text-style {
+  font-family: Helvetica;
   font-size: 12px;
   color: #ffffff;
-  font-family: Helvetica;
+  margin-left: 30px;
   margin-bottom: 10px;
 }
 
