@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Collage from "./Collage";
+import Collage from "./components/Collage";
 
 function App() {
   return (
