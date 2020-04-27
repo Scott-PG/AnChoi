@@ -26,7 +26,7 @@ class Header extends Component {
             <a className="link1" href="#food">
               Menu
             </a>
-            <a className="link1" href="#info">
+            <a className="link1" href="#info-holder">
               Info
             </a>
           </nav>
