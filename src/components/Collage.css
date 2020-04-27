@@ -163,12 +163,18 @@ strong {
 @media (max-width: 570px) {
 }
 
-@media (max-width: 480px) {
-}
+/* @media (max-width: 480px) {
+} */
 
 @media (max-width: 414px) {
+  .circle1,
+  .circle2 {
+    display: none;
+  }
   .collage {
-    width: 100%;
+    background-size: cover;
+    /* overflow-y: scroll; */
+    overflow: hidden;
   }
 
   .collage-button-border-one {
