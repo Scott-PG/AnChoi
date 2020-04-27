@@ -19,7 +19,7 @@ function Collage() {
         <h4 className="hours">Hours</h4>
 
         <h3 className="kitchen">Kitchen</h3>
-        <p className="text-style">
+        <p className="collage-text-style">
           <span>
             <strong>Mon </strong>6p-11p
             <br className="responsive-br" /> <strong>Tue & Thu </strong> 12p-11p
@@ -31,7 +31,7 @@ function Collage() {
         </p>
 
         <h3 className="bar">Bar</h3>
-        <p className="text-style">
+        <p className="collage-text-style">
           <span>
             <strong> Mon-Sat </strong> 6p-12a
             <br className="responsive-br" /> <strong>Sun </strong> 6p-11:30p
