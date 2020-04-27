@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+
+.foodHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.foodHeading {
+  font-family: Bungee Shade;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #2577c4;
+  background-color: #ffffff;
+  margin-top: 0.8em;
+  margin-bottom: 1em;
+  padding-top: 0;
+}
+
+.menuLink {
+  font-family: Bungee Inline;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #c31230;
+  margin-bottom: 1.5em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-left: 1.7em;
+  padding-right: 1.7em;
+  border-radius: 12px;
+}
+
+.specialtySection {
+  background-color: #fff8ea;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.specialtySection2 {
+  background-color: #ffffff;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.foodStripes {
+  max-width: 70vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodIllustration {
+  height: 12em;
+  margin-right: 8em;
+}
+
+.foodName {
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5em;
+  display: flex;
+  align-items: flex-start;
+  color: #2577c4;
+  margin-bottom: 0.6em;
+}
+
+.foodDescription {
+  display: flex;
+  align-items: flex-start;
+  color: black;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.bold {
+  font-weight: bold;
+  display: flex;
+  color: black;
+  font-family: Helvetica Neue;
+  font-size: 1.5em;
+}
+
+.foodText {
+  display: flex;
+  flex-direction: column;
+}
+
+.foodIllustration2 {
+  height: 13em;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.foodIllustration4 {
+  height: 21em;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+.foodIllustration3 {
+  height: 19em;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.specialtyText2 {
+  text-align: right;
+}
+.foodName2 {
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: flex-end;
+  color: #2577c4;
+  margin-bottom: 0.6em;
+}
+
+.bold2 {
+  font-weight: bold;
+  display: flex;
+  color: black;
+  font-family: Helvetica Neue;
+  font-size: 1.5em;
+  justify-content: flex-end;
+}
+
+.foodText2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.foodDescription2 {
+  display: flex;
+  align-items: flex-end;
+  color: black;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.foodStripes2 {
+  max-width: 70vw;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
