@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./components/shared/header";
+import Collage from "./components/Collage";
 import { Route } from "react-router-dom";
 import "./App.css";
 
@@ -11,6 +12,7 @@ class App extends Component {
         <header>
           <Header />
         </header>
+      <Collage />
       </div>
     );
   }
