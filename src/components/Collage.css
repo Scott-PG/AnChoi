@@ -45,6 +45,15 @@ p {
   align-items: center;
   margin-bottom: 40px;
 }
+.call-to-reserve {
+  margin-top: 20px;
+}
+.take-out {
+  margin-top: 5px;
+}
+.delivery {
+  margin-top: 5px;
+}
 
 .collage-button-border-two {
   width: 437px;
@@ -69,9 +78,7 @@ p {
   text-decoration: underline;
   margin-top: 10px;
 }
-/* .kitchen-container {
 
-} */
 .kitchen {
   margin-left: 30px;
   font-family: "Bungee";
@@ -117,3 +124,56 @@ strong {
   letter-spacing: normal;
   color: #ffffff;
 }
+
+.circle1 {
+  margin-right: 130px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(63, 62, 62);
+  opacity: 0.7;
+  padding: 0;
+}
+
+.circle2 {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(63, 62, 62);
+  margin-left: 130px;
+  opacity: 0.7;
+  padding: 0;
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.chain-container {
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+/* .chain {
+  margin: 0;
+  padding: 0;
+} */
+
+/* .chain1,
+.chain2 {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+} */
+/* .chain1 {
+  left: 10px;
+  top: 40px;
+  margin-right: 80px;
+} */
+/* .chain2 {
+  margin-right: 20px;
+  margin-left: 170px;
+} */

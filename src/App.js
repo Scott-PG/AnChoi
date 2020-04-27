@@ -3,6 +3,7 @@ import Header from "./components/shared/header";
 import Collage from "./components/Collage";
 import About from "./components/About";
 import { Route } from "react-router-dom";
+import Footer from "./components/shared/Footer";
 import "./App.css";
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
         </header>
         <Collage />
         <About />
+        <Footer />
       </div>
     );
   }
