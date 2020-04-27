@@ -10,7 +10,7 @@ import "./Food.css";
 class Food extends Component {
   render() {
     return (
-      <div className="menuHighlights">
+      <div className="menuHighlights" id="food">
         <div className="foodHeader">
           <p className="foodHeading">OUR FOOD</p>
           <p className="menuLink">FULL MENU</p>
