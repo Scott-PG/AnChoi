@@ -5,6 +5,7 @@ import About from "./components/About";
 import { Route } from "react-router-dom";
 import Footer from "./components/shared/Footer";
 import "./App.css";
+import Divider from "./components/shared/Divider";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         </header>
         <Collage />
         <About />
+        <Divider />
         <Footer />
       </div>
     );
