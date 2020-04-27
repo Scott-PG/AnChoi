@@ -1,13 +1,21 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+import Header from "./components/shared/header";
 import Collage from "./components/Collage";
+import { Route } from "react-router-dom";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header>
+          <Header />
+        </header>
       <Collage />
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
