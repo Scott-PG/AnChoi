@@ -21,8 +21,11 @@ function Collage() {
         <h3 className="kitchen">Kitchen</h3>
         <p className="text-style">
           <span>
-            <strong>Mon </strong>6p-11p <strong>Tue & Thu </strong> 12p-11p
-            <strong> Fri & Sat </strong> 12p-11:30p <strong>Sun </strong>
+            <strong>Mon </strong>6p-11p
+            <br className="responsive-br" /> <strong>Tue & Thu </strong> 12p-11p
+            <br className="responsive-br" />
+            <strong> Fri & Sat </strong> 12p-11:30p
+            <br className="responsive-br" /> <strong>Sun </strong>
             12p-10:30p
           </span>
         </p>
@@ -30,7 +33,8 @@ function Collage() {
         <h3 className="bar">Bar</h3>
         <p className="text-style">
           <span>
-            <strong> Mon-Sat </strong> 6p-12a <strong>Sun </strong> 6p-11:30p
+            <strong> Mon-Sat </strong> 6p-12a
+            <br className="responsive-br" /> <strong>Sun </strong> 6p-11:30p
           </span>
         </p>
       </div>
