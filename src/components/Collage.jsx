@@ -1,5 +1,5 @@
 import React from "react";
-import collage from "./images/collage.png";
+import collage from "../images/collage.png";
 
 function Collage() {
   return (
