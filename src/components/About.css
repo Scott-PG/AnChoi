@@ -1,0 +1,171 @@
+.about-holder {
+  display: grid;
+  grid-template-rows: 30px 50px 30px 500px 30px auto 30px;
+  grid-template-columns: 120px 6fr 30px 400px 120px;
+  grid-template-areas:
+    ". . . . ."
+    ". t t t ."
+    ". . . . ."
+    ". s s s ."
+    ". . . . ."
+    ". b . i ."
+    ". . . . .";
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  grid-area: t;
+}
+
+.about-storefront-image {
+  grid-area: s;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  overflow: hidden;
+}
+
+.about-blurb-div {
+  grid-area: b;
+}
+
+.about-image-div {
+  grid-area: i;
+}
+
+.about-title {
+  font-family: Bungee Shade;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  color: #2577c4;
+}
+
+.about-blurb {
+  font-family: Bungee Shade;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #c31230;
+  margin-bottom: 30px;
+}
+
+.about-text {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.about-owners-title {
+  font-family: Bungee;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2577c3;
+  text-align: center;
+}
+
+.about-owners-image {
+  max-width: 100%;
+}
+
+@media (max-width: 1240px) {
+  .about-holder {
+    grid-template-rows: 30px 50px 30px 500px 30px auto 30px auto 30px;
+    grid-template-columns: 1fr 1000px 1fr;
+    grid-template-areas:
+      ". . ."
+      ". t ."
+      ". . ."
+      ". s ."
+      ". . ."
+      ". b ."
+      ". . ."
+      ". i ."
+      ". . .";
+  }
+}
+@media (max-width: 1040px) {
+  .about-holder {
+    grid-template-rows: 30px 50px 30px 0.7fr 30px auto 30px 1fr 30px;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-areas:
+      ". . ."
+      ". t ."
+      ". . ."
+      ". s ."
+      ". . ."
+      ". b ."
+      ". . ."
+      ". i ."
+      ". . .";
+  }
+  .about-storefront-image {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    object-position: center;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 570px) {
+  .about-holder {
+    grid-template-rows: 30px 50px 30px 1fr 30px auto 30px 1fr 30px;
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-areas:
+      ". . ."
+      ". t ."
+      ". . ."
+      "s s s"
+      ". . ."
+      ". b ."
+      ". . ."
+      "i i i"
+      ". . .";
+  }
+  .about-storefront-image {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    object-position: center;
+    overflow: unset;
+  }
+
+  .about-blurb {
+    display: none;
+  }
+
+  .about-text {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 200% */
+
+    color: #000000;
+  }
+  .about-owners-title {
+    font-family: Bungee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+  }
+}
