@@ -172,3 +172,33 @@
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 570px) {
+  .specialtySection{
+max-width: 100%;
+margin-left: 0;
+margin-right: 0;
+  }
+  .foodStripes{
+    max-width: 40vw;
+  }
+  
+  .foodIllustration{
+    max-width: 40vw;
+
+  }
+  .specialtyText{
+
+  }
+  .foodName{
+
+  }
+  .foodText{
+
+  }
+  .bold{
+
+  }
+  .foodDescription{
+
+  }
+}

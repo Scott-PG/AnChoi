@@ -20,9 +20,15 @@ class Header extends Component {
             <img className="logoImage" src={Logo} />
           </div>
           <nav className="navLinks">
-            <Link className="link1" to="/">Our Story</Link>
-            <Link className="link1" to="/">Menu</Link>
-            <Link className="link1" to="/">Info</Link>
+            <a className="link1" href="#about">
+              Our Story
+            </a>
+            <a className="link1" href="#food">
+              Menu
+            </a>
+            <a className="link1" href="#info-holder">
+              Info
+            </a>
           </nav>
         </div>
       </>
