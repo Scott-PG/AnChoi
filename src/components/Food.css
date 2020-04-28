@@ -173,32 +173,65 @@
   align-items: center;
 }
 @media (max-width: 570px) {
-  .specialtySection{
-max-width: 100%;
-margin-left: 0;
-margin-right: 0;
+  /* .specialtySection{
+  width: 100vw;
+  display: block;
+  text-align: center;
+  margin: auto;
+} */
+  .foodStripes {
+    width: 100vw;
+    display: block;
+    text-align: center;
+    margin: auto;
   }
-  .foodStripes{
-    max-width: 40vw;
-  }
-  
-  .foodIllustration{
-    max-width: 40vw;
 
+  .foodIllustration {
+    max-width: 80vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-  .specialtyText{
-
+  .foodName {
+    display: block;
+    text-align: center;
+    margin-top: 1em;
   }
-  .foodName{
 
+  .foodStripes2 {
+    width: 100vw;
+    display: block;
+    text-align: center;
+    margin: auto;
   }
-  .foodText{
 
+  .foodIllustration2 {
+    max-width: 80vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2.5em;
   }
-  .bold{
-
+  .foodName2 {
+    display: block;
+    text-align: center;
   }
-  .foodDescription{
 
+  .foodIllustration4 {
+    height: 21em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .foodIllustration3 {
+    height: 19em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .specialtySection2 {
+    display: block;
+    text-align: center;
+    width: 100vw;
   }
 }
