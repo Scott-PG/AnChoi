@@ -173,12 +173,6 @@
   align-items: center;
 }
 @media (max-width: 570px) {
-  /* .specialtySection{
-  width: 100vw;
-  display: block;
-  text-align: center;
-  margin: auto;
-} */
   .foodStripes {
     width: 100vw;
     display: block;
@@ -187,7 +181,7 @@
   }
 
   .foodIllustration {
-    max-width: 80vw;
+    height: 7em;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
@@ -207,7 +201,7 @@
   }
 
   .foodIllustration2 {
-    max-width: 80vw;
+    height: 8em;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
@@ -220,12 +214,13 @@
   }
 
   .foodIllustration4 {
-    height: 21em;
+    height: 14em;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2.5em;
   }
   .foodIllustration3 {
-    height: 19em;
+    height: 13em;
     margin-left: auto;
     margin-right: auto;
   }
@@ -233,5 +228,23 @@
     display: block;
     text-align: center;
     width: 100vw;
+  }
+  .menuHighlights {
+    width: 100vw;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .foodDescription2 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .bold2 {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
   }
 }

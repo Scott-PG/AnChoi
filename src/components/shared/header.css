@@ -84,4 +84,11 @@
     flex-direction: column;
     min-height: 100vh;
   }
+  .logoImage {
+    width: 20em;
+    margin-top: 1.25em;
+    margin-bottom: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
