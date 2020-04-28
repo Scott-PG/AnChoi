@@ -5,7 +5,6 @@ import About from "./components/About";
 import Food from "./components/Food";
 import Info from "./components/Info";
 import Footer from "./components/shared/Footer";
-import { Route } from "react-router-dom";
 import "./App.css";
 import Divider from "./components/shared/Divider";
 
