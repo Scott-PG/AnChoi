@@ -28,9 +28,29 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-
+.collage-secondary-container {
+  height: 475px;
+  width: 465px;
+  position: relative;
+}
+.chain1 {
+  position: absolute;
+  left: 77px;
+  top: 146px;
+}
+.chain2 {
+  position: absolute;
+  right: 59px;
+  top: 148px;
+}
+.chain {
+  height: 190px;
+}
 .collage-button-border-one {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 466px;
   height: 250px;
   background-color: rgba(255, 255, 255, 0.75);
@@ -51,6 +71,9 @@
 }
 
 .collage-button-border-two {
+  position: absolute;
+  top: 290px;
+  left: 14px;
   width: 437px;
   height: 185.3px;
   background-color: #c31230;
@@ -58,6 +81,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .hours {
@@ -140,6 +164,7 @@
   opacity: 0.7;
   padding: 0;
 }
+
 .responsive-br {
   display: none;
 }
@@ -158,12 +183,14 @@
 @media (max-width: 570px) {
 }
 
-/* @media (max-width: 480px) {
-} */
-
 @media (max-width: 414px) {
   .circle1,
   .circle2 {
+    display: none;
+  }
+  .chain1,
+  .chain2,
+  .chain {
     display: none;
   }
   .collage {
@@ -181,6 +208,10 @@
     display: flex;
     width: 191px;
     height: 298px;
+
+    left: 30%;
+    top: 50%;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     border-radius: 15px;
@@ -205,32 +236,6 @@
 }
 @media (max-width: 375px) {
 }
-
-/* .chain-container {
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-} */
-/* .chain {
-  margin: 0;
-  padding: 0;
-} */
-
-/* .chain1,
-.chain2 {
-  position: absolute;
-  width: 60px;
-  height: 80px;
-} */
-/* .chain1 {
-  left: 10px;
-  top: 40px;
-  margin-right: 80px;
-} */
-/* .chain2 {
-  margin-right: 20px;
-  margin-left: 170px;
-} */
 
 @media (max-width: 570px) {
   /* .collage{
