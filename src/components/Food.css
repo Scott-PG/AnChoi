@@ -7,7 +7,9 @@
   flex-direction: column;
   margin-bottom: 0;
 }
-
+.menu-link-pdf {
+  text-decoration: none;
+}
 .foodHeading {
   font-family: Bungee Shade;
   font-style: normal;
@@ -40,7 +42,10 @@
   padding-right: 1.7em;
   border-radius: 12px;
 }
-
+.menu-link-pdf :hover {
+  border:1px solid blue;
+  border-color: blue;
+}
 .specialtySection {
   background-color: #fff8ea;
   padding-top: 5em;
@@ -173,32 +178,26 @@
   align-items: center;
 }
 @media (max-width: 570px) {
-  .specialtySection{
-max-width: 100%;
-margin-left: 0;
-margin-right: 0;
+  .specialtySection {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
-  .foodStripes{
+  .foodStripes {
     max-width: 40vw;
   }
-  
-  .foodIllustration{
+
+  .foodIllustration {
     max-width: 40vw;
-
   }
-  .specialtyText{
-
+  .specialtyText {
   }
-  .foodName{
-
+  .foodName {
   }
-  .foodText{
-
+  .foodText {
   }
-  .bold{
-
+  .bold {
   }
-  .foodDescription{
-
+  .foodDescription {
   }
 }
