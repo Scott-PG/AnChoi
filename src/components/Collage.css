@@ -167,6 +167,7 @@
     display: none;
   }
   .collage {
+    height: 650px;
     background-size: cover;
     /* overflow-y: scroll; */
     overflow: hidden;
