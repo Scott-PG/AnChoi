@@ -70,6 +70,10 @@
   padding: 0;
 }
 
+.addressBar2{
+  display: none;
+}
+
 @media (max-width: 570px) {
   nav {
     width: 100%;
@@ -78,7 +82,7 @@
     font-size: 14px;
   }
 
-  body{
+  body {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -86,9 +90,53 @@
   }
   .logoImage {
     width: 20em;
-    margin-top: 1.25em;
-    margin-bottom: 2em;
     padding-top: 0;
     padding-bottom: 0;
+    margin-bottom: 0.6em;
+  }
+
+  .navLinks {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .link1 {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    line-height: 1em;
+    font-size: 0.8em;
+    padding: 0;
+  }
+
+  .addressBar2 {
+    height: 2.2em;
+    background-color: #fff8ea;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding-top: 0em;
+
+    font-family: Bungee;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    
+    margin-bottom: 2.5em;
+    max-width: 65vw;
+
+  }
+  .addressBar{
+    display: none;
+  }
+
+  .fanImage {
+    display: none;
+  }
+
+  .phone {
+    margin-left: 1em;
   }
 }
