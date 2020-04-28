@@ -42,10 +42,7 @@
   padding-right: 1.7em;
   border-radius: 12px;
 }
-.menu-link-pdf :hover {
-  border:1px solid blue;
-  border-color: blue;
-}
+
 .specialtySection {
   background-color: #fff8ea;
   padding-top: 5em;
