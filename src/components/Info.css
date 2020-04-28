@@ -8,6 +8,7 @@
     ". . . . ."
     ". i . m ."
     ". . . . .";
+  font-family: "Helvetica Neue";
 }
 
 .info-title {
@@ -75,7 +76,6 @@
 }
 
 .info-text-p {
-  font-family: Helvetica Neue;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -126,5 +126,65 @@
   .info-social-icon-div {
     justify-self: center;
     margin: 0 auto 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .info-holder {
+    grid-template-columns: 1fr 20px 390px 20px 1fr;
+    grid-template-areas:
+      ". . . . ."
+      ". t t t ."
+      ". . . . ."
+      ". . i . ."
+      ". . . . ."
+      ". m m m ."
+      ". . . . ."
+      ". . s . ."
+      ". . . . .";
+  }
+
+  .info-kitchen-hours {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 172px;
+    margin: 8px auto 10px;
+  }
+
+  .info-bar-hours {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 80px;
+    margin: 8px auto 10px;
+  }
+}
+
+@media (max-width: 570px) {
+  .info-text-p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  }
+  .info-text-header {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 430px) {
+  .info-holder {
+    grid-template-columns: 20px 1fr 20px;
+    grid-template-areas:
+      ". . ."
+      "t t t"
+      ". . ."
+      ". i ."
+      ". . ."
+      "m m m"
+      ". . ."
+      ". s ."
+      ". . .";
   }
 }
