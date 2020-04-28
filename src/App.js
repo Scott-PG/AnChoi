@@ -19,7 +19,7 @@ class App extends Component {
         <Divider />
         <Food />
         <Divider />
-        {/* <Info /> */}
+        <Info />
         <Footer />
       </div>
     );
