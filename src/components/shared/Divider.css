@@ -6,4 +6,7 @@
 .vector {
   width: 70vw;
   height: 11px;
+  object-fit: none;
+  object-position: center;
+  overflow: hidden;
 }
