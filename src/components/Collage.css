@@ -1,9 +1,3 @@
-h3,
-h4,
-p {
-  margin: 0;
-}
-
 .collage {
   display: flex;
   justify-content: center;
@@ -16,6 +10,7 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .collage-button {
@@ -33,9 +28,29 @@ p {
   letter-spacing: normal;
   color: #ffffff;
 }
-
+.collage-secondary-container {
+  height: 475px;
+  width: 465px;
+  position: relative;
+}
+.chain1 {
+  position: absolute;
+  left: 77px;
+  top: 146px;
+}
+.chain2 {
+  position: absolute;
+  right: 59px;
+  top: 148px;
+}
+.chain {
+  height: 190px;
+}
 .collage-button-border-one {
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 466px;
   height: 250px;
   background-color: rgba(255, 255, 255, 0.75);
@@ -56,6 +71,9 @@ p {
 }
 
 .collage-button-border-two {
+  position: absolute;
+  top: 290px;
+  left: 14px;
   width: 437px;
   height: 185.3px;
   background-color: #c31230;
@@ -63,6 +81,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 .hours {
@@ -105,7 +124,7 @@ p {
   margin-bottom: 5px;
 }
 
-.text-style {
+.collage-text-style {
   font-family: Helvetica;
   font-size: 12px;
   color: #ffffff;
@@ -113,7 +132,7 @@ p {
   margin-bottom: 10px;
 }
 
-strong {
+.collage-text-style strong {
   font-family: "Helvetica Neue";
   width: 116px;
   height: 19.3px;
@@ -146,34 +165,80 @@ strong {
   padding: 0;
 }
 
+.responsive-br {
+  display: none;
+}
+
 .circle-container {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
 }
-
-.chain-container {
-  margin: 0;
-  padding: 0;
-  z-index: 1;
+@media (max-width: 1240px) {
 }
-/* .chain {
-  margin: 0;
-  padding: 0;
-} */
 
-/* .chain1,
-.chain2 {
-  position: absolute;
-  width: 60px;
-  height: 80px;
-} */
-/* .chain1 {
-  left: 10px;
-  top: 40px;
-  margin-right: 80px;
-} */
-/* .chain2 {
-  margin-right: 20px;
-  margin-left: 170px;
-} */
+@media (max-width: 1040px) {
+}
+
+@media (max-width: 570px) {
+}
+
+@media (max-width: 414px) {
+  .circle1,
+  .circle2 {
+    display: none;
+  }
+  .chain1,
+  .chain2,
+  .chain {
+    display: none;
+  }
+  .collage {
+    height: 650px;
+    background-size: cover;
+    /* overflow-y: scroll; */
+    overflow: hidden;
+  }
+
+  .collage-button-border-one {
+    background-color: transparent;
+  }
+
+  .collage-button-border-two {
+    display: flex;
+    width: 191px;
+    height: 298px;
+
+    left: 30%;
+    top: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 15px;
+  }
+  .hours {
+    margin-top: 20px;
+    align-self: center;
+  }
+  .kitchen {
+    text-align: center;
+    margin-left: 50px;
+  }
+  .responsive-br {
+    display: inline;
+  }
+  .collage-text-style {
+    margin-left: 50px;
+  }
+  .bar {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 375px) {
+}
+
+@media (max-width: 570px) {
+  /* .collage{
+    background-position: 36% 65%;
+  } */
+}

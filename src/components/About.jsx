@@ -6,7 +6,7 @@ import storefront from "../images/storefront.jpg";
 class About extends Component {
   render() {
     return (
-      <div className="about-holder">
+      <div className="about-holder" id="about">
         <h2 className="about-title">Our Story</h2>
         <img
           className="about-storefront-image"

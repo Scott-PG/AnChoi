@@ -1,3 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 570px) {
+  
+  .app{
+    max-width: 100%;
+ 
+  }
+  
+}

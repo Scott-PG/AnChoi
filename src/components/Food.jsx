@@ -1,19 +1,21 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
 import Illustration from "../images/illustration_banhmi.png";
 import Illustration2 from "../images/illustration_pho.png";
 import Illustration3 from "../images/illustration_rolls.png";
 import Illustration4 from "../images/illustration_drinks.png";
-
 import "./Food.css";
+import menu from "../menu-pdf/anchoimenu.pdf";
 
 class Food extends Component {
   render() {
     return (
-      <div className="menuHighlights">
+      <div className="menuHighlights" id="food">
         <div className="foodHeader">
           <p className="foodHeading">OUR FOOD</p>
-          <p className="menuLink">FULL MENU</p>
+          <a className="menu-link-pdf" href={menu}>
+            <p className="menuLink">FULL MENU</p>
+          </a>
         </div>
 
         <div className="specialtySection">

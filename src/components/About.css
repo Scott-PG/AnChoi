@@ -122,6 +122,8 @@
   }
 }
 
+
+
 @media (max-width: 570px) {
   .about-holder {
     grid-template-rows: 30px 50px 30px 1fr 30px auto 30px 1fr 30px;
