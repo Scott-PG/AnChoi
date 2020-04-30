@@ -110,7 +110,6 @@
   .navLinks {
     margin-right: auto;
     margin-left: auto;
-    height: ;
   }
 
   .link1 {
@@ -150,5 +149,12 @@
 
   .phone {
     margin-left: 1em;
+  }
+}
+
+@media (max-width: 350px) {
+  .link1 {
+    margin-left: 0.9em;
+    margin-right: 0.9em;
   }
 }
