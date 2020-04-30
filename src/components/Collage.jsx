@@ -6,11 +6,23 @@ function Collage() {
     <div className="collage">
       <div className="collage-secondary-container">
         <div className="collage-button-border-one">
-          <button className="collage-button call-to-reserve">
-            Call to Reserve
-          </button>
-          <button className="collage-button take-out">Take Out</button>
-          <button className="collage-button delivery">Delivery</button>
+          <a className="collage-button-links" href="tel:212–226–3700">
+            <button className="collage-button call-to-reserve">
+              Call to Reserve
+            </button>
+          </a>
+          <a
+            className="collage-button-links"
+            href="https://direct.chownow.com/order/16531/locations"
+          >
+            <button className="collage-button take-out">Take Out</button>
+          </a>
+          <a
+            className="collage-button-links"
+            href="https://direct.chownow.com/order/16531/locations"
+          >
+            <button className="collage-button delivery">Delivery</button>
+          </a>
           <div className="circle-container">
             <div className="circle1"></div>
             <div className="circle2"></div>

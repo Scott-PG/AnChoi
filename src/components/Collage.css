@@ -28,6 +28,11 @@
   letter-spacing: normal;
   color: #ffffff;
 }
+
+.collage-button:hover {
+  cursor: pointer;
+}
+
 .collage-secondary-container {
   height: 475px;
   width: 465px;
