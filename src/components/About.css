@@ -122,22 +122,14 @@
   }
 }
 
-
-
 @media (max-width: 570px) {
   .about-holder {
-    grid-template-rows: 30px 50px 30px 1fr 30px auto 30px 1fr 30px;
-    grid-template-columns: 20px 1fr 20px;
-    grid-template-areas:
-      ". . ."
-      ". t ."
-      ". . ."
-      "s s s"
-      ". . ."
-      ". b ."
-      ". . ."
-      "i i i"
-      ". . .";
+    display: block;
+    margin: 33px 0 44px;
+  }
+
+  .about-title {
+    margin: 0 0 33px;
   }
   .about-storefront-image {
     height: 100%;
@@ -145,6 +137,10 @@
     object-fit: scale-down;
     object-position: center;
     overflow: unset;
+  }
+
+  .about-blurb-div {
+    margin: 10px 20px 20px;
   }
 
   .about-blurb {
@@ -157,8 +153,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    /* or 200% */
-
     color: #000000;
   }
   .about-owners-title {
