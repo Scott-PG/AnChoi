@@ -21,7 +21,6 @@ class Info extends Component {
           </div>
           <div className="info-contact">
             <h2 className="info-text-header">Contact Us</h2>
-
             <p className="info-text-p">
               <a className="info-links" href="tel:212–226–3700">
                 212–226–3700
