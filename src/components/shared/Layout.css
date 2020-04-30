@@ -1,0 +1,8 @@
+.layout {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+.layout-children {
+  overflow-y: scroll;
+}

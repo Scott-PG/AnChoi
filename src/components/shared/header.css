@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0;
 }
+.header-div {
+  width: 100vw;
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -205px;
+}
 
 .addressBar {
   width: 100%;
@@ -43,22 +50,24 @@
 
 .headerBar {
   background-color: #fff8ea;
+  height: 230px;
 }
 
 .navLinks {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   margin-right: 1em;
   font-family: Bungee Shade;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5em;
+  background-color: #fef8eb;
 }
 .link1 {
   text-decoration: none;
   color: #c31230;
-  margin-bottom: 1.2em;
+  margin-bottom: 0;
   margin-left: 1.8em;
   margin-right: 1.8em;
   line-height: 1.5em;
@@ -70,11 +79,14 @@
   padding: 0;
 }
 
-.addressBar2{
+.addressBar2 {
   display: none;
 }
 
 @media (max-width: 570px) {
+  .header-div {
+    top: -170px;
+  }
   nav {
     width: 100%;
   }
@@ -98,6 +110,7 @@
   .navLinks {
     margin-right: auto;
     margin-left: auto;
+    height: ;
   }
 
   .link1 {
@@ -123,12 +136,11 @@
     font-weight: normal;
     font-size: 1.3em;
     line-height: 1.2em;
-    
+
     margin-bottom: 2.5em;
     max-width: 65vw;
-
   }
-  .addressBar{
+  .addressBar {
     display: none;
   }
 
