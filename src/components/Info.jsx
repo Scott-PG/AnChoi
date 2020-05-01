@@ -8,7 +8,8 @@ import twitter from "../images/icon_twitter.png";
 class Info extends Component {
   render() {
     return (
-      <div className="info-holder" id="info-holder">
+      <div className="info-holder">
+        <a id="info" className="link-inv-target link-inv-target-info"></a>
         <h2 className="info-title">Info</h2>
         <div className="info-text">
           <div className="info-address info-text-groups">
