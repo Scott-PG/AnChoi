@@ -9,6 +9,25 @@
   position: sticky;
   top: -205px;
 }
+/* This is code for all invisible target links everywhere! */
+.link-inv-target {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+.link-inv-target-about {
+  top: -78px;
+}
+
+.link-inv-target-food {
+  top: -60px;
+}
+
+.link-inv-target-info {
+  top: -64px;
+}
+/* ------------------------------------------------------- */
 
 .addressBar {
   width: 100%;
@@ -105,6 +124,11 @@
     flex-direction: column;
     min-height: 100vh;
   }
+
+  .link-inv-target-food {
+    top: -44px;
+  }
+
   .logoImage {
     width: 20em;
     padding-top: 0;

@@ -10,8 +10,9 @@ import menu from "../menu-pdf/anchoimenu.pdf";
 class Food extends Component {
   render() {
     return (
-      <div className="menuHighlights" id="food">
+      <div className="menuHighlights">
         <div className="foodHeader">
+          <a id="food" className="link-inv-target link-inv-target-food"></a>
           <p className="foodHeading">OUR FOOD</p>
           <a className="menu-link-pdf" href={menu}>
             <p className="menuLink">FULL MENU</p>
