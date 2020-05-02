@@ -1,6 +1,6 @@
 .about-holder {
   display: grid;
-  grid-template-rows: 30px 50px 30px 500px 30px auto 30px;
+  grid-template-rows: 30px 50px 30px 550px 30px auto 30px;
   grid-template-columns: 120px 6fr 30px 400px 120px;
   grid-template-areas:
     ". . . . ."
@@ -84,7 +84,7 @@
 
 @media (max-width: 1240px) {
   .about-holder {
-    grid-template-rows: 30px 50px 30px 500px 30px auto 30px auto 30px;
+    grid-template-rows: 30px 50px 30px 550px 30px auto 30px auto 30px;
     grid-template-columns: 1fr 1000px 1fr;
     grid-template-areas:
       ". . ."
@@ -151,7 +151,7 @@
     font-family: Helvetica;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #000000;
   }
@@ -159,7 +159,7 @@
     font-family: Bungee;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 17px;
     text-align: center;
     color: #000000;

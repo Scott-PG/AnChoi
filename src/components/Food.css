@@ -7,11 +7,9 @@
   flex-direction: column;
   margin-bottom: 0;
 }
-.menu-link-pdf {
-  text-decoration: none;
-}
+
 .foodHeading {
-  font-family: Bungee Shade;
+  font-family: "Bungee Shade";
   font-style: normal;
   font-weight: normal;
   font-size: 42px;
@@ -25,8 +23,12 @@
   padding-top: 0;
 }
 
+.menu-link-pdf {
+  text-decoration: none;
+}
+
 .menuLink {
-  font-family: Bungee Inline;
+  font-family: "Bungee Inline";
   font-style: normal;
   font-weight: normal;
   font-size: 1.8em;
@@ -64,17 +66,31 @@
 }
 
 .foodStripes {
-  max-width: 70vw;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 500px 50px 500px 1fr;
+  grid-template-rows: 300px;
+  grid-template-areas: ". i . t .";
   align-items: center;
 }
 
-.foodIllustration {
-  height: 12em;
-  margin-right: 8em;
+.foodStripes2 {
+  display: grid;
+  grid-template-columns: 1fr 500px 50px 500px 1fr;
+  grid-template-rows: 300px;
+  grid-template-areas: ". t . i .";
+  align-items: center;
+}
+
+.specialtyText {
+  text-align: left;
+  max-width: 500px;
+  grid-area: t;
+}
+
+.specialtyText2 {
+  text-align: right;
+  max-width: 500px;
+  grid-area: t;
 }
 
 .foodName {
@@ -82,28 +98,41 @@
   font-style: normal;
   font-weight: normal;
   font-size: 2.5em;
-  display: flex;
-  align-items: flex-start;
   color: #2577c4;
   margin-bottom: 0.6em;
 }
 
-.foodDescription {
-  display: flex;
-  align-items: flex-start;
-  color: black;
-  font-family: Helvetica Neue;
+.foodName2 {
+  font-family: Bungee;
   font-style: normal;
-  font-weight: 400;
-  font-size: 1.5em;
+  font-weight: normal;
+  font-size: 2.5em;
+  color: #2577c4;
+  margin-bottom: 0.6em;
+}
+.fn-row {
+  display: block;
+}
+.fn-col {
+  display: none;
 }
 
 .bold {
   font-weight: bold;
-  display: flex;
+  color: black;
+  font-family: "Helvetica Neue";
+  font-size: 1.5em;
+}
+
+.bold2 {
+  font-weight: bold;
   color: black;
   font-family: Helvetica Neue;
   font-size: 1.5em;
+}
+
+.b-split {
+  display: none;
 }
 
 .foodText {
@@ -111,88 +140,61 @@
   flex-direction: column;
 }
 
-.foodIllustration2 {
-  height: 13em;
-  margin-left: 8em;
-  margin-right: 8em;
-}
-
-.foodIllustration4 {
-  height: 21em;
-  margin-left: 8em;
-  margin-right: 8em;
-}
-.foodIllustration3 {
-  height: 19em;
-  margin-left: 8em;
-  margin-right: 8em;
-}
-
-.specialtyText2 {
-  text-align: right;
-}
-.foodName2 {
-  font-family: Bungee;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2.5em;
-  display: flex;
-  justify-content: flex-end;
-  color: #2577c4;
-  margin-bottom: 0.6em;
-}
-
-.bold2 {
-  font-weight: bold;
-  display: flex;
-  color: black;
-  font-family: Helvetica Neue;
-  font-size: 1.5em;
-  justify-content: flex-end;
-}
-
 .foodText2 {
   display: flex;
   flex-direction: column;
+}
+
+.foodDescription {
+  display: flex;
+  align-items: flex-start;
+  color: black;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
 }
 
 .foodDescription2 {
   display: flex;
   align-items: flex-end;
   color: black;
-  font-family: Helvetica Neue;
+  font-family: "Helvetica Neue";
   font-style: normal;
   font-weight: 400;
   font-size: 1.5em;
 }
 
-.foodStripes2 {
-  max-width: 70vw;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-  align-items: center;
+.food-ill {
+  grid-area: i;
 }
-@media (max-width: 570px) {
+
+.foodIllustration {
+  width: 500px;
+  justify-self: right;
+}
+
+.foodIllustration2 {
+  width: 500px;
+  justify-self: left;
+}
+
+.foodIllustration3 {
+  width: 400px;
+  justify-self: right;
+}
+
+.foodIllustration4 {
+  width: 400px;
+  justify-self: left;
+}
+
+@media (max-width: 1150px) {
   .foodStripes {
     width: 100vw;
     display: block;
     text-align: center;
     margin: auto;
-  }
-
-  .foodIllustration {
-    height: 7em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .foodName {
-    display: block;
-    text-align: center;
-    margin-top: 1em;
   }
 
   .foodStripes2 {
@@ -202,35 +204,36 @@
     margin: auto;
   }
 
-  .foodIllustration2 {
-    height: 8em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 2.5em;
+  .foodName {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
   }
+
   .foodName2 {
     display: block;
     text-align: center;
+    margin-bottom: 40px;
   }
 
-  .foodIllustration4 {
-    height: 14em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2.5em;
+  .fn-row {
+    display: none;
   }
-  .foodIllustration3 {
-    height: 13em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .specialtySection2 {
-    display: block;
+
+  .specialtyText {
+    margin: 40px auto 0;
     text-align: center;
-    width: 100vw;
+    max-width: 500px;
+    grid-area: unset;
   }
+
+  .specialtyText2 {
+    margin: 40px auto 0;
+    text-align: center;
+    max-width: 500px;
+    grid-area: unset;
+  }
+
   .menuHighlights {
     width: 100vw;
     display: block;
@@ -247,6 +250,60 @@
     text-align: center;
     margin-left: 0;
     margin-right: 0;
+    display: block;
+  }
+
+  .b-split {
+    display: none;
+  }
+}
+
+@media (max-width: 570px) {
+  .foodDescription,
+  .foodDescription2 {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
+  .specialtyText,
+  .specialtyText2 {
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .foodIllustration {
+    width: 90vw;
+    max-width: 500px;
+  }
+
+  .foodIllustration2 {
+    width: 90vw;
+    max-width: 500px;
+  }
+
+  .foodIllustration3 {
+    width: 80vw;
+    max-width: 400px;
+  }
+
+  .foodIllustration4 {
+    width: 90vw;
+    max-width: 400px;
+  }
+
+  .bold,
+  .bold2 {
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+
+  .b-uni {
+    display: none;
+  }
+
+  .b-split {
     display: block;
   }
 }
