@@ -35,19 +35,19 @@
 }
 
 .collage-secondary-container {
-  height: 475px;
+  height: 500px;
   width: 465px;
   position: relative;
 }
 .chain1 {
   position: absolute;
   left: 76px;
-  top: 148px;
+  top: 155px;
 }
 .chain2 {
   position: absolute;
   right: 59px;
-  top: 148px;
+  top: 155px;
 }
 .chain {
   height: 190px;
@@ -64,6 +64,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10px;
   margin-bottom: 40px;
 }
 .call-to-reserve {
@@ -178,7 +179,6 @@
 .circle-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 10px;
 }
 
 @media (max-width: 470px) {
